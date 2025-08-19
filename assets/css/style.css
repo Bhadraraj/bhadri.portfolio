@@ -20471,3 +20471,16 @@ ul.parsley-errors-list li {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+
+/* Smooth scrolling behavior */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Add scroll margin to sections to account for fixed navbar */
+#about-sec,
+#career-sec,
+#contact-us {
+    scroll-margin-top: 100px;
+}
