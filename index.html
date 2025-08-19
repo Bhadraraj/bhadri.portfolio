@@ -31,27 +31,27 @@
         <div class="ot-menu-area text-center">
             <button class="ot-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
-                <a href="index.html">
+                <a href="#home">
                     <h3 class="logo mb-0">MR.103</h3>
                 </a>
             </div>
             <div class="ot-mobile-menu">
                 <ul>
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="#home">Home</a>
 
                     </li>
                     <li>
-                        <a href="">About Us</a>
+                        <a href="#about-sec">About Us</a>
 
                     </li>
 
                     <li>
-                        <a href="">Education</a>
+                        <a href="#career-sec">Education</a>
 
                     </li>
                     <li>
-                        <a href="">Contact Us</a>
+                        <a href="#contact-us">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -79,27 +79,29 @@
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
                             <div class="header-logo">
-                                <h3 class="logo mb-0">MR.103</h3>
+                              <a href="#home">
+                    <h3 class="logo mb-0">MR.103</h3>
+                </a>
                             </div>
                         </div>
                         <div class="col-auto">
                             <nav class="main-menu d-none d-lg-inline-block">
                                 <ul>
                                     <li>
-                                        <a href="index.html">Home</a>
+                                        <a href="#home">Home</a>
 
                                     </li>
                                     <li>
-                                        <a href="">About Us</a>
+                                        <a href="#about-sec">About Us</a>
 
                                     </li>
 
                                     <li>
-                                        <a href="">Education</a>
+                                        <a href="#career-sec">Education</a>
 
                                     </li>
                                     <li>
-                                        <a href="">Contact Us</a>
+                                        <a href="#contact-us">Contact Us</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -570,7 +572,7 @@
             </div>
     </section>
 
-    <section class="pt-40 pb-40 overflow-hidden">
+    <section class="pt-40 pb-40 overflow-hidden" id="career-sec">
         <div class="shape-mockup bg-gradient-shape1 why-bg-gradient1" data-top="auto" data-bottom="30%" data-right="0"
             data-left="auto"></div>
         <div class="shape-mockup bg-gradient-shape1 why-bg-gradient2" data-top="20%" data-left="3%"></div>
@@ -767,7 +769,7 @@
                     <div class="swiper-pagination"></div>
                 </div>
             </div>
-            <div class="row pt-25 mt-5">
+            <!-- <div class="row pt-25 mt-5">
                 <div class="col-12">
                     <div class="title-area text-center">
                         <span class="sub-title style2" data-cue="slideInUp">Voice of Project Director</span>
@@ -785,7 +787,7 @@
                     <audio id="teamAudio" src="assets/audio/audiopm.mp3"></audio>
                 </div>
 
-            </div>
+            </div> -->
         </div>
     </section>
 
@@ -960,7 +962,7 @@
         </div>
     </section>
 
-    <footer class="footer-wrapper footer-layout1 space-top"> 
+    <footer class="footer-wrapper footer-layout1 space-top" id="contact-us"> 
         <div class="footer-shape2 spin d-md-block d-none">
             <img src="assets/img/shape/footer-bg-shape1-2.png" alt="img" />
         </div>
@@ -1192,6 +1194,68 @@
                 icon.classList.add('fa-volume-up');
             }
         }
+
+
+        // Smooth scroll function with offset for navbar
+function smoothScrollWithOffset(target, offset = 100) {
+    const element = document.querySelector(target);
+    if (element) {
+        const elementPosition = element.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - offset;
+        
+        window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth'
+        });
+    }
+}
+
+// Add event listeners when DOM is loaded
+document.addEventListener('DOMContentLoaded', function() {
+    // Get all menu links (both desktop and mobile)
+    const menuLinks = document.querySelectorAll('a[href^="#"]');
+    
+    menuLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+            const href = this.getAttribute('href');
+            
+            // Skip if it's just "#" (home link)
+            if (href === '#') {
+                return;
+            }
+            
+            e.preventDefault();
+            
+            // Close mobile menu if open
+            const mobileMenuWrapper = document.querySelector('.ot-menu-wrapper');
+            const menuToggle = document.querySelector('.ot-menu-toggle');
+            
+            if (mobileMenuWrapper && mobileMenuWrapper.classList.contains('active')) {
+                mobileMenuWrapper.classList.remove('active');
+            }
+            
+            // Smooth scroll to target with offset
+            smoothScrollWithOffset(href, 100);
+        });
+    });
+    
+    // Mobile menu toggle functionality
+    const menuToggleBtn = document.querySelector('.header-button .ot-menu-toggle');
+    const mobileMenuWrapper = document.querySelector('.ot-menu-wrapper');
+    const closeMenuBtn = document.querySelector('.ot-menu-wrapper .ot-menu-toggle');
+    
+    if (menuToggleBtn && mobileMenuWrapper) {
+        menuToggleBtn.addEventListener('click', function() {
+            mobileMenuWrapper.classList.add('active');
+        });
+    }
+    
+    if (closeMenuBtn && mobileMenuWrapper) {
+        closeMenuBtn.addEventListener('click', function() {
+            mobileMenuWrapper.classList.remove('active');
+        });
+    }
+});
     </script>
 </body>
 
