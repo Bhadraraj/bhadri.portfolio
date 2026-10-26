@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="assets/css/magnific-popup.min.css" />
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/portfolio.css?v=20261026-intro-video" />
+    <link rel="stylesheet" href="assets/css/portfolio.css?v=20261026-globe" />
     <link rel="preload" as="image" href="assets/img/hero/hero-bg1-1.webp" fetchpriority="high" />
     <style>:where(img[width][height]) { height: auto; }</style>
     <link rel="icon" href="./assets/img/favicons/favicon.ico" type="image/x-icon">
@@ -131,11 +131,11 @@
         <div class="hero-inner">
             <div class="container">
                 <div class="hero-layout">
-                    <div class="hero-portrait" aria-label="Portrait of Bhadra Raj">
+                    <div class="hero-visual" role="img" aria-label="Animated blue digital globe with connected points">
                         <div class="portrait-orbit" aria-hidden="true"></div>
                         <div class="portrait-orbit portrait-orbit-inner" aria-hidden="true"></div>
                         <div class="portrait-sparks" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
-                        <div class="portrait-frame"><img src="assets/project/bhadri.png" alt="Bhadra Raj, Full Stack Developer" width="1086" height="1447" fetchpriority="high" decoding="async"></div>
+                        <canvas class="hero-globe" aria-hidden="true"></canvas>
                     </div>
                     <div class="hero-copy">
                         <div class="hero-style1">
@@ -1096,6 +1096,7 @@
             }
         });
     </script>
+    <script defer src="assets/js/hero-globe.js"></script>
 </body>
 
 </html>
