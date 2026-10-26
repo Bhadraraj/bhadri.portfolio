@@ -87,3 +87,6 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 @keyframes tech-scroll{to{transform:translateX(-50%)}}
 @media(max-width:575px){.tech-strip{padding-top:24px;padding-bottom:24px}.tech-logo{padding:6px}.tech-logo img{width:38px;height:38px}}
 @media(prefers-reduced-motion:reduce){.tech-track{animation:none;will-change:auto}}
+.featured-project .project-description{font-size:13px;line-height:1.65;min-height:4.95em;margin:0 0 14px;color:var(--body-color)}
+.project-description span{display:block}
+@media(max-width:575px){.featured-project .project-description{font-size:11px;margin-bottom:12px}}

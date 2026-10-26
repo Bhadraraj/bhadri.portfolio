@@ -4,104 +4,111 @@
     "mraclicks",
     "https://mraclicks.com/",
     "React.js, Tailwind CSS, Node.js, PostgreSQL",
-    "Photography business website with a responsive presentation of its work and services."
+    "Wedding photography. Photo & video galleries. Bookings and enquiries."
   ],
   [
     "Highgrade Fitness",
     "highgradefitness",
     "https://highgradefitness.com/",
     "React.js, Tailwind CSS, NestJS, PostgreSQL",
-    "Fitness studio website presenting training programs, trainers, and consultation information."
+    "Guided fitness plans. Personal gym training. Trainer consultations."
   ],
   [
     "Amuthapoo",
     "amuthapoo",
     "https://amuthapoo.in/",
     "React.js, Tailwind CSS",
-    "Honey product storefront with a responsive catalogue and WhatsApp ordering links."
+    "Natural honey products. Browse the collection. WhatsApp ordering."
   ],
   [
     "Tamil Nadu Hajj",
     "tnhajj",
     "https://hajj-tn.com/",
     "React.js, Tailwind CSS",
-    "Tamil Nadu State Hajj Committee website presenting pilgrim information, forms, notices, and contact details."
+    "Hajj pilgrim guidance. Forms and key notices. Committee information."
   ],
   [
     "Tristar Media",
     "tristarmedia",
     "https://tristarmedia.ca/",
     "React.js, Tailwind CSS, Node.js, MySQL",
-    "Media production website showcasing event coverage, live production, and cinematic storytelling."
+    "Creative event media. Live video production. Cinematic storytelling."
   ],
   [
     "HGMS - Gym Management",
     "hgms",
     "https://bhadri103.github.io/hgms/",
     "React.js, Tailwind CSS, NestJS, PostgreSQL",
-    "Gym management application with a React interface, NestJS backend, and PostgreSQL database."
+    "Gym admin portal. Organized daily tasks. Secure member access."
   ],
   [
     "School Management System",
     "school-management",
     "https://bhadraraj.github.io/school-management/login/",
     "Next.js, Tailwind CSS",
-    "Role-based dashboards for teachers, students, and administrators, covering attendance, exams, subjects, and fees."
+    "Student administration. Attendance and exams. School fee tracking."
   ],
   [
     "Hotel / Apartment Website",
     "apartment",
     "https://bhadraraj.github.io/hotel-website",
     "HTML, CSS, JavaScript",
-    "Hospitality website with room listings, booking forms, and responsive navigation."
+    "Hotel and room listings. Explore stay options. Simple booking forms."
   ],
   [
     "Smart Hire Jobs",
     "smarthirejobs",
     "https://smarthirejobs.com/",
     "React.js, Tailwind CSS",
-    "Recruitment website with a responsive React interface for exploring job opportunities."
+    "Career opportunities. Recruitment services. Employer connections."
   ],
   [
     "Hospital Management System",
     "tnhajj-hms",
     "https://hms.hajj-tn.com/",
     "React, TypeScript, Bootstrap, Java, PostgreSQL",
-    "Hospital management interface covering appointments, patients, billing, pharmacy, and reporting."
+    "Patient appointments. Billing and pharmacy. Hospital activity data."
   ],
   [
     "Restaurant POS",
     "resturant",
     "https://bhadraraj.github.io/restaurant-pos/",
     "React, Tailwind CSS, Node.js, Express.js, MongoDB",
-    "Restaurant point-of-sale application with QR ordering, kitchen workflows, billing, and sales analytics."
+    "QR ordering and bills. Kitchen order workflow. Sales performance data."
   ],
   [
     "Dallas Wall Care",
     "dallas",
     "https://dallaswallcare.com/",
     "React, Vite, Bootstrap",
-    "Wall care business website showcasing services and contact information."
+    "Interior wall services. Exterior care options. Business enquiry page."
   ],
   [
     "IT Tech",
     "it-tech",
     "https://bhadraraj.github.io/it_tech/",
     "React.js, Bootstrap",
-    "Technology services website with a responsive business presentation."
+    "Technology solutions. Business service pages. Company contacts."
   ],
   [
     "Oil & Gas",
     "industry",
     "https://bhadraraj.github.io/Oil-Gas/",
     "React.js, Bootstrap",
-    "Industrial business website presenting oil and gas services."
+    "Oil and gas services. Industrial expertise. Service information."
   ],
   [
     "TradePro",
     "tradepro",
     "https://bhadraraj.github.io/trade-pro/dashboard",
     "React, Vite, Tailwind CSS",
-    "Trading dashboard with charts and portfolio analytics."
+    "Trading dashboard. Market charts and data. Portfolio performance."
+  ],
+  [
+    "GuviHost",
+    "guvihost",
+    "https://www.guvihost.com/",
+    "React, Bootstrap",
+    "Web hosting services. Website development. Business web solutions."
   ]
 ]
