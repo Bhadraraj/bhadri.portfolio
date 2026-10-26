@@ -14,6 +14,13 @@
     "Guided fitness plans. Personal gym training. Trainer consultations."
   ],
   [
+    "GuviHost",
+    "guvihost",
+    "https://www.guvihost.com/",
+    "React, Bootstrap",
+    "Web hosting services. Website development. Business web solutions."
+  ],
+  [
     "Amuthapoo",
     "amuthapoo",
     "https://amuthapoo.in/",
@@ -103,12 +110,5 @@
     "https://bhadraraj.github.io/trade-pro/dashboard",
     "React, Vite, Tailwind CSS",
     "Trading dashboard. Market charts and data. Portfolio performance."
-  ],
-  [
-    "GuviHost",
-    "guvihost",
-    "https://www.guvihost.com/",
-    "React, Bootstrap",
-    "Web hosting services. Website development. Business web solutions."
   ]
 ]
