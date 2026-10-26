@@ -7,10 +7,10 @@
 .featured-project-image:hover::after,.featured-project-image:focus-visible::after{opacity:1}
 .featured-project-body{padding:16px;display:flex;flex-direction:column;flex:1}
 .project-index{font-size:10px;letter-spacing:.09em;color:var(--body-color);margin-bottom:8px}
-.featured-project h3{font-size:18px;line-height:1.35;margin-bottom:10px}
+.featured-project h3{font-size:18px;line-height:1.35;margin-bottom:0}
 .featured-project h3 a{color:var(--title-color)}
 .featured-project p{font-size:13px;line-height:1.65;color:var(--body-color);margin-bottom:14px}
-.featured-project .project-stack{font-size:11px;line-height:1.7;color:var(--title-color);padding-top:10px;border-top:1px solid var(--ot-border-color);margin-top:auto;margin-bottom:12px}
+.featured-project .project-stack{font-size:11px;line-height:1.7;color:var(--title-color);padding-top:12px;border-top:1px solid var(--ot-border-color);margin-top:0;margin-bottom:14px}
 .project-links{display:flex;flex-wrap:wrap;gap:8px 16px}
 .project-live{color:var(--title-color);font-weight:600;font-size:12px;line-height:1.5}.project-live:hover{color:var(--title-color)}
 .more-projects{margin-top:28px;border-top:1px solid var(--ot-border-color);padding-top:20px}.more-projects summary{font-size:20px;font-weight:600;cursor:pointer;margin-bottom:24px;color:var(--title-color)}
@@ -87,5 +87,5 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 @keyframes tech-scroll{to{transform:translateX(-50%)}}
 @media(max-width:575px){.tech-strip{padding-top:24px;padding-bottom:24px}.tech-logo{padding:6px}.tech-logo img{width:38px;height:38px}}
 @media(prefers-reduced-motion:reduce){.tech-track{animation:none;will-change:auto}}
-.featured-project .project-description{font-size:13px;line-height:1.65;height:4.95em;margin:0 0 14px;color:var(--body-color);display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden}
-@media(max-width:575px){.featured-project .project-description{font-size:11px;margin-bottom:12px}}
+.featured-project .project-description{font-size:13px;line-height:1.65;margin:14px 0 16px;color:var(--body-color);display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden}
+@media(max-width:575px){.featured-project .project-description{font-size:11px;margin:12px 0 14px}.featured-project .project-stack{padding-top:10px;margin-bottom:12px}}
