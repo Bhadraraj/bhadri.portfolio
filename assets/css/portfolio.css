@@ -69,3 +69,11 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 .about-video-wrap{border:1px solid var(--ot-border-color);border-radius:18px;overflow:hidden;background:var(--ot-body-background);line-height:0}
 .about-video{display:block;width:100%;height:auto;max-height:520px;object-fit:contain}
 .hero-globe{position:absolute;width:100%;height:100%;inset:0;pointer-events:none}
+@media(max-width:991px){
+  #hero .hero-layout{position:relative;isolation:isolate;display:block}
+  #hero .hero-visual{position:absolute;z-index:0;top:50%;left:50%;transform:translate(-50%,-50%);width:min(100%,520px);height:520px;opacity:.42;pointer-events:none;user-select:none}
+  #hero .hero-copy{position:relative;z-index:1}
+  #hero .hero-title,#hero .hero-text{text-shadow:0 2px 12px var(--ot-body-background)}
+  #hero .hero-text{color:#c4c4cc}
+}
+@media(max-width:575px){#hero .hero-visual{height:420px;top:44%;opacity:.38}#hero .hero-inner{padding-top:42px}}
