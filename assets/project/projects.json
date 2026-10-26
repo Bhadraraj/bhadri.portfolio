@@ -70,10 +70,10 @@
     "Hospital management interface covering appointments, patients, billing, pharmacy, and reporting."
   ],
   [
-    "Dashboard",
-    "dashboard",
-    "https://bhadraraj.github.io/dashboard/",
-    "",
-    "Dashboard project. The supplied public demo is currently unavailable."
+    "Restaurant POS",
+    "resturant",
+    "https://bhadraraj.github.io/restaurant-pos/",
+    "React, Tailwind CSS, Node.js, Express.js, MongoDB",
+    "Restaurant point-of-sale application with QR ordering, kitchen workflows, billing, and sales analytics."
   ]
 ]
