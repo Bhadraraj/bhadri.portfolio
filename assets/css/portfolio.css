@@ -58,8 +58,8 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 @media(max-width:575px){#hero .contact-feature.style2{justify-content:center;gap:20px}#hero .contact-feature.style2>a{margin:0}#hero .contact-feature.style2>a:first-child{flex-basis:100%;display:flex;justify-content:center}}
 
 /* Compact mobile About image and animated project links. */
-@media(max-width:991px){#about-sec .img-box1{width:min(100%,340px);margin:0 auto}}
-@media(max-width:575px){#about-sec .img-box1{width:74%;max-width:270px}#about-sec .row{--bs-gutter-y:24px}}
+@media(max-width:991px){#about-sec .about-video-wrap{width:min(100%,340px);margin:0 auto}}
+@media(max-width:575px){#about-sec .about-video-wrap{width:74%;max-width:270px}#about-sec .row{--bs-gutter-y:24px}}
 .project-live{display:inline-flex;align-items:center;gap:8px;width:fit-content;transition:color .2s ease}
 .project-arrow{display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;flex-shrink:0;border:1px solid var(--ot-border-color);border-radius:50%;transition:background .2s ease,border-color .2s ease}
 .project-arrow svg{display:block;width:15px;height:15px;animation:project-arrow-nudge 3.6s ease-in-out infinite}
@@ -67,3 +67,6 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 .project-live:hover .project-arrow,.project-live:focus-visible .project-arrow{background:var(--theme-color);border-color:var(--theme-color);color:var(--white-color)}
 @keyframes project-arrow-nudge{0%,65%,100%{transform:translateX(0)}78%{transform:translateX(2px)}90%{transform:translateX(0)}}
 @media(prefers-reduced-motion:reduce){.project-arrow svg{animation:none}.project-live,.project-arrow{transition:none}}
+
+.about-video-wrap{border:1px solid var(--ot-border-color);border-radius:18px;overflow:hidden;background:var(--ot-body-background);line-height:0}
+.about-video{display:block;width:100%;height:auto;max-height:520px;object-fit:contain}
