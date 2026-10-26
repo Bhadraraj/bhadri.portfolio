@@ -923,6 +923,8 @@ scrollCue.init({
     percentage: 0.99,
     duration : 900,
 });
+// Reveal visible content immediately instead of waiting for every image to load.
+scrollCue.update();
  
 
 

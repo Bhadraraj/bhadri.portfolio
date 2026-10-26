@@ -1,0 +1,79 @@
+[
+  [
+    "MRA Clicks",
+    "mraclicks",
+    "https://mraclicks.com/",
+    "React.js, Tailwind CSS, Node.js, PostgreSQL",
+    "Photography business website with a responsive presentation of its work and services."
+  ],
+  [
+    "Highgrade Fitness",
+    "highgradefitness",
+    "https://highgradefitness.com/",
+    "React.js, Tailwind CSS, NestJS, PostgreSQL",
+    "Fitness studio website presenting training programs, trainers, and consultation information."
+  ],
+  [
+    "Amuthapoo",
+    "amuthapoo",
+    "https://amuthapoo.in/",
+    "React.js, Tailwind CSS",
+    "Honey product storefront with a responsive catalogue and WhatsApp ordering links."
+  ],
+  [
+    "Tamil Nadu Hajj",
+    "tnhajj",
+    "https://hajj-tn.com/",
+    "",
+    "Tamil Nadu State Hajj Committee website presenting pilgrim information, forms, notices, and contact details."
+  ],
+  [
+    "Tristar Media",
+    "tristarmedia",
+    "https://tristarmedia.ca/",
+    "React.js, Tailwind CSS, Node.js, MySQL",
+    "Media production website showcasing event coverage, live production, and cinematic storytelling."
+  ],
+  [
+    "HGMS - Gym Management",
+    "hgms",
+    "https://bhadri103.github.io/hgms/",
+    "React.js, Tailwind CSS, NestJS, PostgreSQL",
+    "Gym management application with a React interface, NestJS backend, and PostgreSQL database."
+  ],
+  [
+    "School Management System",
+    "school-management",
+    "https://bhadraraj.github.io/school-management/login/",
+    "Next.js, Tailwind CSS",
+    "Role-based dashboards for teachers, students, and administrators, covering attendance, exams, subjects, and fees."
+  ],
+  [
+    "Hotel / Apartment Website",
+    "apartment",
+    "https://bhadraraj.github.io/hotel-website",
+    "HTML, CSS, JavaScript",
+    "Hospitality website with room listings, booking forms, and responsive navigation."
+  ],
+  [
+    "Smart Hire Jobs",
+    "smarthirejobs",
+    "https://smarthirejobs.com/",
+    "React.js, Tailwind CSS",
+    "Recruitment website with a responsive React interface for exploring job opportunities."
+  ],
+  [
+    "Hospital Management System",
+    "tnhajj-hms",
+    "https://hms.hajj-tn.com/",
+    "React, TypeScript, Bootstrap, Java, PostgreSQL",
+    "Hospital management interface covering appointments, patients, billing, pharmacy, and reporting."
+  ],
+  [
+    "Dashboard",
+    "dashboard",
+    "https://bhadraraj.github.io/dashboard/",
+    "",
+    "Dashboard project. The supplied public demo is currently unavailable."
+  ]
+]
