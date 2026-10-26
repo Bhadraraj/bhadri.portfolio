@@ -15,6 +15,7 @@
 .project-live{color:var(--title-color);font-weight:600;font-size:12px;line-height:1.5}.project-live:hover{color:var(--title-color)}
 .more-projects{margin-top:28px;border-top:1px solid var(--ot-border-color);padding-top:20px}.more-projects summary{font-size:20px;font-weight:600;cursor:pointer;margin-bottom:24px;color:var(--title-color)}
 .hero-text{max-width:850px}.contact-feature.style2{flex-wrap:wrap;gap:16px}
+.ot-header .header-button .ot-btn{padding:11px 24px;font-size:14px;line-height:20px;min-width:130px;min-height:44px}
 .sticky-wrapper.sticky{background:var(--ot-body-background)}
 a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var(--theme-color);outline-offset:5px}
 
