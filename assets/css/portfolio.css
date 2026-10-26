@@ -77,3 +77,13 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
   #hero .hero-text{color:#c4c4cc}
 }
 @media(max-width:575px){#hero .hero-visual{height:420px;top:44%;opacity:.38}#hero .hero-inner{padding-top:42px}}
+
+/* Two identical groups make the five-logo window loop without a seam. */
+.tech-marquee{overflow:hidden;width:100%}
+.tech-track{display:flex;width:600%;animation:tech-scroll 45s linear infinite;will-change:transform}
+.tech-group{display:grid;grid-template-columns:repeat(15,minmax(0,1fr));flex:0 0 50%;min-width:0}
+.tech-logo{display:flex;align-items:center;justify-content:center;min-width:0;padding:8px}
+.tech-logo img{display:block;width:64px;height:64px;max-width:100%;object-fit:contain}
+@keyframes tech-scroll{to{transform:translateX(-50%)}}
+@media(max-width:575px){.tech-strip{padding-top:24px;padding-bottom:24px}.tech-logo{padding:6px}.tech-logo img{width:38px;height:38px}}
+@media(prefers-reduced-motion:reduce){.tech-track{animation:none;will-change:auto}}
