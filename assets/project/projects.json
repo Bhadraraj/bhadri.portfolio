@@ -75,5 +75,33 @@
     "https://bhadraraj.github.io/restaurant-pos/",
     "React, Tailwind CSS, Node.js, Express.js, MongoDB",
     "Restaurant point-of-sale application with QR ordering, kitchen workflows, billing, and sales analytics."
+  ],
+  [
+    "Dallas Wall Care",
+    "dallas",
+    "https://dallaswallcare.com/",
+    "React, Vite, Bootstrap",
+    "Wall care business website showcasing services and contact information."
+  ],
+  [
+    "IT Tech",
+    "it-tech",
+    "https://bhadraraj.github.io/it_tech/",
+    "",
+    "Technology services website with a responsive business presentation."
+  ],
+  [
+    "Oil & Gas",
+    "industry",
+    "https://bhadraraj.github.io/Oil-Gas/",
+    "",
+    "Industrial business website presenting oil and gas services."
+  ],
+  [
+    "TradePro",
+    "tradepro",
+    "https://bhadraraj.github.io/trade-pro/dashboard",
+    "React, Vite, Tailwind CSS",
+    "Trading dashboard with charts and portfolio analytics."
   ]
 ]
